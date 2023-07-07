@@ -34,14 +34,21 @@ canvas {
   font-family: 'Dancing Script', cursive;
   font-size: 200px;
   margin-right: 50px;
+  position: relative;
 }
+  audio {
+   position: absolute;
+   bottom: 20px;
+   opacity: 0.5;
+}
+   
   </style>
  </HEAD>
 
  <BODY>
 
-  <audio autoplay>
-    <source src="ido.mp3">
+  <audio controls autoplay>
+    <source  src="ido.mp3" type="audio/mpeg" >
   </audio>
 
   <p class="name">Uyên Nhi</p>
